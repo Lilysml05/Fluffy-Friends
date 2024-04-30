@@ -1,0 +1,47 @@
+*{box-sizing:border-box}
+body{
+    border:3px solid red;
+    margin:0px;
+    font-family: Arif Black;
+    text-align:center
+}
+header,nav,section,aside,footer{
+    border:1px solid green;
+    padding:20px;
+}
+header{
+    width:100%;
+    background-color:dimgray;
+}
+nav{
+    width:20%;
+    float:left;
+    height:400px;
+    background-color:rgb(186 186 186);
+}
+section{
+    width:60%;
+    float:left;
+    height:400px;
+    background-color:cornsilk
+}
+aside{
+    width:20%;
+    float:left;
+    height:400px;
+    background-color:azure
+}
+footer{
+    width:100%;
+    clear:left;
+}
+table{
+     border:1px solid black;
+}
+tr,th,td{
+     border:1px solid red;
+}
+.logo{
+     width:200px;
+     clear:left;
+}
